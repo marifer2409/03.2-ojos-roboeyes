@@ -64,5 +64,6 @@ inline void testI2CDevice() {
         Serial.println(F("[I2C] Arranque detenido. Verifica SDA(21)/SCL(22) o alimentacion."));
         while (true) delay(100); // Modo seguro: bucle infinito para proteger el circuito
     }
+}
 
 #endif
